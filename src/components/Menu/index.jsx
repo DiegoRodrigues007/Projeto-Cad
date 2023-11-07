@@ -2,14 +2,20 @@ import styles from "./Menu.module.scss";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { AiOutlineMenu } from "react-icons/ai";
-import Logo from"public/Assets/img/logo.png";
+
+
 function Menu() {
   const rotas = [
-    { title: "Serviços", href: "./Servicos" },
-    { title: "Sobre Nós", href: "./Sobre" },
-    { title: "Planos", href: "./planos" },
+    { title: "Nossa História", href: "./Servicos" },
+    { title: "Quem Somos", href: "./Sobre" },
+    { title: "Nossos Projetos", href: "./planos" },
+    { title: "Como ajudar", href: "./contato" },
+    { title: "Parceiros", href: "./contato" },
     { title: "Contato", href: "./contato" },
+    { title: "Doe agora", href: "./contato" },
   ];
+
+  
 
   const [menu, setMenu] = useState(false);
 
@@ -26,7 +32,7 @@ function Menu() {
       <nav className={styles.menu}>
         <div className={styles.logo}>
           <a href="#">
-            <img src={Logo} alt="Logo" />
+            <img src="/Assets/img/logo.png" alt="Logo" />
           </a>
         </div>
         <div onClick={aoClicar} className={styles.menuButton}>

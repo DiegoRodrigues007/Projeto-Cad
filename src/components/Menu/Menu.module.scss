@@ -22,15 +22,13 @@ $bg-color2: #0E0E1B;
     }
     .logo {
       img {
-        width: 80px;
+        width: 70px;
         image-rendering: crisp-edges;
       }
     }
-  
     ul{
       display: flex;
       justify-content: space-between;
-
       li{
         margin: 20px;
         
@@ -53,24 +51,21 @@ $bg-color2: #0E0E1B;
         }
         
         &:last-child{
-          border-radius: 18px;
           background-color: #fff;
-          padding:2px;
-          width: 120px;
-         
+          border-radius: 20px;
+          width: 100px;
+          
           a{
-            color: #3ccc51;
-            font-weight: 500;
+            color: #0E0E1B;
             margin-left: 10px;
-            margin-bottom: 30px;
-            
-           
+            &:hover::after {
+              width: 0%;
+            }
           }
         }
+        
       }
-
     }
-    
   }
 }
 
@@ -88,6 +83,7 @@ $bg-color2: #0E0E1B;
     }
     
     ul {
+     
       display: flex;
       flex-direction: column;
       background-color: $bg-color2;
@@ -124,6 +120,7 @@ $bg-color2: #0E0E1B;
       }
     
       li {
+
         margin: 10px;
         a {
           color: white;
@@ -136,7 +133,7 @@ $bg-color2: #0E0E1B;
           text-decoration: none;
           display: inline-flex;
           position: relative;
-    
+          
           &::after {
             content: " ";
             width: 0%;
@@ -152,9 +149,22 @@ $bg-color2: #0E0E1B;
             width: 100%;
           }
         }
+        &:last-child{
+          background-color: black;
+          width: 120px;
+          height: 30px;
+          border-radius: 20px;
+          display: flex;
+          a{
+            color: #0E0E1B;
+            margin-left: 10px;
+            &:hover::after {
+              width: 0%;
+            }
+          }
+        }
       }
     }
-  
   }
   }
   

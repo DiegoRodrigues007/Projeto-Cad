@@ -1,4 +1,4 @@
-$color-hover: red;
+$color-hover: white;
 $bg-color2: #0E0E1B;
 
 .container {
@@ -50,19 +50,7 @@ $bg-color2: #0E0E1B;
           }
         }
         
-        &:last-child{
-          background-color: #fff;
-          border-radius: 20px;
-          width: 100px;
-          
-          a{
-            color: #0E0E1B;
-            margin-left: 10px;
-            &:hover::after {
-              width: 0%;
-            }
-          }
-        }
+        
         
       }
     }
@@ -149,20 +137,7 @@ $bg-color2: #0E0E1B;
             width: 100%;
           }
         }
-        &:last-child{
-          background-color: black;
-          width: 120px;
-          height: 30px;
-          border-radius: 20px;
-          display: flex;
-          a{
-            color: #0E0E1B;
-            margin-left: 10px;
-            &:hover::after {
-              width: 0%;
-            }
-          }
-        }
+        
       }
     }
   }

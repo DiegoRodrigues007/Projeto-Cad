@@ -6,7 +6,7 @@ const OngParceira = () => {
     const conteudoProjeto = [
 
       {img:"/Assets/img/cuidado-que-mancha.svg", key:"1"},
-      {img:"/Assets/img/sol-maior.svg", key:"2"},
+      {img:"/Assets/img/Sol-maior.svg", key:"2"},
       {img:"/Assets/img/inf.svg", key:"3"},
       {img:"/Assets/img/sorobo.svg", key:"4"},
       {img:"/Assets/img/vivendo.png", key:"4"},

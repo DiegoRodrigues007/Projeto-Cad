@@ -18,7 +18,7 @@ const EmpresaParceira = () => {
   return (
 
     <div  className={styles.container}>
-        <h1>EmpresaParceira</h1>
+        <h1>Empresa Parceira</h1>
         <div>
             <div className={styles.card}>
             {conteudoProjeto.map((conteudo) => (

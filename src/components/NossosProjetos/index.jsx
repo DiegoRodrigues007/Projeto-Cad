@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../NossosProjetos/NossosProjetos.module.scss';;
 const NossosProjetos = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='NossosProjetos'>
         <div className={styles.content}>
             <h1>Nossos Projetos</h1>
             <p>Através dos projetos, buscamos auxiliar no desenvolvimento individual e coletivo de cada aluno.
@@ -30,7 +30,7 @@ const NossosProjetos = () => {
 
         <div className={styles.ajuda}> 
           <p><strong>Pode nos ajudar?</strong> Entre em contato conosco ou clique abaixo para doar!</p>
-          <a href='#'>Doar</a>
+          <a href='#doar'>Doar</a>
         </div>
     </div>
   )

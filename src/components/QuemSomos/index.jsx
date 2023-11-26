@@ -3,7 +3,7 @@ import styles from '../QuemSomos/QuemSomos.module.scss';
 
 const QuemSomos = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='QuemSomos'>
         
         <div className={styles.content}>
             <h1>Quem somos</h1>

@@ -1,14 +1,13 @@
 
-import { Inter } from 'next/font/google'
 import Menu from '../components/Menu/index';
 import BannerPrincipal from '../components/BannerPrincipal/index';
-import  Head  from 'next/document';
 import NossaHistoria from '../components/NossaHistoria';
 import QuemSomos from '../components/QuemSomos';
 import NossosProjetos from '../components/NossosProjetos';
 import OngParceira from '../components/OngParceira';
 import EmpresaParceira from '..//components/EmpresParceira';
-
+import Footer from '../components/Footer'
+import Doe from '../components/Doe';
 export default function Home() {
   return (
     <>
@@ -18,9 +17,10 @@ export default function Home() {
         <NossaHistoria/>
         <QuemSomos/>
         <NossosProjetos/>
+        <Doe/>
         <OngParceira/>
         <EmpresaParceira/>
-    
+        <Footer/>
     </>
   )
 }

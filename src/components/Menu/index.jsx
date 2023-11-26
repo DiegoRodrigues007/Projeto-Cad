@@ -6,13 +6,12 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 function Menu() {
   const rotas = [
-    { title: "Nossa História", href: "./Servicos" },
-    { title: "Quem Somos", href: "./Sobre" },
-    { title: "Nossos Projetos", href: "./planos" },
-    { title: "Como ajudar", href: "./contato" },
-    { title: "Parceiros", href: "./contato" },
-    { title: "Contato", href: "./contato" },
-    { title: "Doe agora", href: "./contato" },
+    { title: "Nossa História", href: "#NossaHistoria" },
+    { title: "Quem Somos", href: "#QuemSomos" },
+    { title: "Nossos Projetos", href: "#NossosProjetos" },
+    { title: "Parceiros", href: "#Parceiros" },
+    { title: "Contato", href: "#contato" },
+    { title: "Doe agora", href: "#doar" },
     
   ];
 

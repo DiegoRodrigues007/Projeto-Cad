@@ -1,0 +1,65 @@
+
+
+.container{
+   
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+
+    .content{
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .rede{
+            margin: 0 10px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+    
+            a{
+                color: white;
+                margin: 0 10px;
+
+                &:hover{
+                    color: rgb(0, 255, 55);
+                }
+            }
+        
+        }
+
+        .endereco{
+
+            h2{
+               margin-left: 10px;
+               margin-top: 20px;
+               margin-bottom: 10px;
+            }
+            p{
+                margin: 0 10px;
+                font-size: 15px;
+                color: white;
+                cursor: pointer;
+            
+            }
+        }
+
+
+
+    }
+    
+    
+
+
+    .copy{
+        text-align: center;
+        // margin: 20px 10px;
+        padding-top: 25px;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+}

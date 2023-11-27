@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../Doe/Doe.module.scss'
+import Modal from '../Modal/index.jsx'
 const Doe = () => {
   return (
     <section className={styles.container} id='doar'>
@@ -13,7 +14,7 @@ const Doe = () => {
            
             <p>Ninguém é grande sozinho</p>
             <div className={styles.btn}>
-            <a href="#">Copiar link</a>
+            <Modal/>
             </div>
             
 

@@ -35,10 +35,7 @@ export default function BasicModal() {
             Chave Pix
           </Typography>
           <Typography className={styles.text}  id="modal-modal-description" sx={{ mt: 2 }}>
-          <spa>00020126360014br.gov.bcb.pix01143989276900010
-            55204000053039865802BR5925ASSOCIACAO
-             CRESCER APREND6012PORTO ALEGRE622605223e
-             6uPlgHsoOk6vMRJOdLcE6304A99C</spa>
+          39.892.769/0001-05
           </Typography>
         </Box>
       </Modal>

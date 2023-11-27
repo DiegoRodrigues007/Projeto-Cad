@@ -30,7 +30,7 @@
         }
 
         .endereco{
-
+            
             h2{
                margin-left: 10px;
                margin-top: 20px;
@@ -54,7 +54,7 @@
 
     .copy{
         text-align: center;
-        // margin: 20px 10px;
+        
         padding-top: 25px;
         font-size: 15px;
         color: white;
@@ -63,3 +63,20 @@
     }
 
 }
+
+@media (max-width: 600px) {
+    
+    .container{
+
+        
+        .content{
+            display: flex;
+            flex-direction: column;
+            .rede{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 20px;
+            }
+        }
+    }
+  }

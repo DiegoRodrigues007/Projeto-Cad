@@ -16,7 +16,7 @@ const Footer = () => {
 
                 <a href="https://www.facebook.com/projetocadpoa?mibextid=ZbWKwL" target='true'><FaFacebook /></a>
 
-                <a href="https://api.whatsapp.com/send/?phone=5512981518369&text&type=phone_number&app_absent=0" target='true'><FaWhatsapp /></a>
+                <a href="https://api.whatsapp.com/send/?phone=5551985233950&text&type=phone_number&app_absent=0" target='true'><FaWhatsapp /></a>
 
             </div>
             <div className={styles.endereco}>
